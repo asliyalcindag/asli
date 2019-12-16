@@ -1,0 +1,18 @@
+#Sezar'ın Kutu Şifreleme Algoritması
+
+def şifreleme():
+    import math
+    metin=input("Şifrelenecek metni giriniz: ")
+    b="".join(metin.split())    #Metindeki boşlukları çıkaralım
+    c=len(b)
+
+    d=math.sqrt(c)              #Oluşturacağımız kutunun kenar uzunluğunu bulalım
+    e=int(d)
+    if d>e:
+        e=e+1
+
+    sifreli=("")
+    for x in range(0,e):        #Kutuya yerleştirdiğimizde ortaya çıkacak şifreli metni bulalım
+        for i in range(x,c,e):
+            sifreli+=b[i]
+    print("Şifreli metin: ",sifreli)
