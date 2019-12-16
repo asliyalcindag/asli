@@ -1,0 +1,7 @@
+dizi=input("Stringi giriniz: ")
+harf=input("Aradığınız harf: ")
+sayac=0
+for i in dizi:
+  if harf==i:
+    sayac=sayac+1
+print(sayac)

@@ -1,0 +1,3 @@
+dizi=input("Stringi giriniz: ")
+a="".join(dizi.split())
+print(a)

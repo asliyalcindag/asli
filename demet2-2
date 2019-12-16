@@ -1,0 +1,4 @@
+demet=(2,3,4,3.14,"Mustafa",132,"Kemal","Atatürk",5)
+for i in demet:
+  if type(i)==str:
+    print(i)

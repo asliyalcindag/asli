@@ -1,0 +1,9 @@
+a=int(input("İlk sayı: "))
+b=int(input("İkinci sayı: "))
+c=int(input("Üçüncü sayı: "))
+if a>b and a>c:
+  print("Sayıların en büyüğü: ",a)
+if b>a and b>c:
+  print("Sayıların en büyüğü: ",b)
+else:
+  print("Sayıların en büyüğü: ",c)

@@ -1,0 +1,11 @@
+#modul1.py dosyası
+dizi="jsfjsgk"
+def count(harf):  
+  sayac=0
+  for i in dizi:
+    if harf==i:
+      sayac=sayac+1
+  return sayac
+
+#deneme.py dosyası
+import modul1

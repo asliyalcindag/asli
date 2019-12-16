@@ -1,0 +1,4 @@
+x=0
+for i in range(19,205,3):
+	x=x+i
+print(x)

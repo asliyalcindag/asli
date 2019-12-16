@@ -1,0 +1,5 @@
+dizi=input("String giriniz: ")
+if dizi==dizi[::-1]:
+  print("Bu bir palindromdur.")
+else:
+  print("Bu bir palindrom değildir.")

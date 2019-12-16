@@ -1,0 +1,8 @@
+demet=(1,1,1,2,2,3,3,"Mustafa","Mustafa",3.14,3.14)
+liste=[]
+cop=[]
+for i in demet:
+  if i in liste:
+    cop.append(i)
+  else:
+    liste.append(i)

@@ -1,0 +1,7 @@
+a=int(input("İlk sayı: "))
+b=int(input("İkinci sayı: "))
+c=int(input("Üçüncü sayı: "))
+def ort(a,b,c):
+  return (a+b+c)/3
+ortalama=ort(a,b,c)
+print("Sayıların ortalaması {}'dir.".format(ortalama))

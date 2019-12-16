@@ -1,0 +1,7 @@
+dizi="aaaabddcccddaabb"
+sozluk={}
+for i in dizi:
+  if i in sozluk:
+    sozluk[i]=sozluk[i]+1
+  else:
+    sozluk[i]=1
